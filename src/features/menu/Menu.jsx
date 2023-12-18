@@ -3,7 +3,6 @@ import {getMenu} from "../../services/apiRestaurant"
 import MenuItem from "../../features/menu/MenuItem"
 function Menu() {
   const menu = useLoaderData()
-
   return <>
    {
     menu.map(pizza => (
